@@ -1,0 +1,116 @@
+
+
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateY(-8px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateY(8px);
+	}
+
+	80% {
+		transform: translateY(6.4px);
+	}
+
+	90% {
+		transform: translateY(-6.4px);
+	}
+}
+
+
+@keyframes myAnim2 {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateY(-9px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateY(7px);
+	}
+
+	80% {
+		transform: translateY(7.4px);
+	}
+
+	90% {
+		transform: translateY(-7.4px);
+	}
+}
+
+
+
+
+.Whatdoyouneed {
+    border-radius: 15px;
+    perspective: 2px;
+    border: 2px solid #c7c7c7;
+    margin: 19px;
+	transition: border 0.2s ease-in-out;
+	background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 3px 32px 0 rgba(182, 182, 182, 0.37);
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+}
+
+.Whatdoyouneed:hover {
+	border: 2px solid #027cff;
+	transition: border 0.2s ease-in-out;
+	margin: 19px;
+
+	 
+ }
+ 
+ .Whatdoyouneed2 {
+	 border-radius: 15px;
+	 perspective: 2px;
+	 border: 2px solid #c7c7c7;
+	 transition: border 0.2s ease-in-out;
+	 background: rgba( 255, 255, 255, 0.25 );
+	 box-shadow: 0 3px 32px 0 rgba(182, 182, 182, 0.37);
+	 backdrop-filter: blur( 1.5px );
+	 -webkit-backdrop-filter: blur( 2.5px );
+
+
+	 
+ }
+
+ .Whatdoyouneed2:hover {
+
+	border: 2px solid #0235ff;
+	transition: border 0.2s ease-in-out;
+	
+ }
+
+ .WhatdoyouneedIVS {
+	 border-radius: 15px;
+	 perspective: 2px;
+	 border: 2px solid #c7c7c700;
+	 background-color: #ffffff00;
+	 
+ }
+
+
+ .mb-3 {
+    margin-bottom: 1vh!important;
+}

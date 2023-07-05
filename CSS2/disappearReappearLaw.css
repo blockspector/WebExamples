@@ -1,0 +1,105 @@
+/* Disappear Reappear CSS Code */  
+  
+
+
+@media all and (max-width:768px) {
+    .phone {
+      display: none;
+
+    }
+  }
+ 
+@media screen and (max-width:768px) {
+    .navbar {
+      display: none;
+    }
+    .bigText {
+    display: none;
+    }
+.rendered-js {
+display: none;
+  }
+  .navbarDontShowWhenHam{
+    display: none;
+  }
+}
+  @media all and (min-width:769px) {
+    .hamburger-menu {
+      display: none;
+
+    }
+  }
+ 
+  @media all and (min-width:1231px) {
+  .hideWhenLessthen1231show575 {
+  display: none;
+
+}
+}
+
+
+@media screen and (max-width:768px) {
+  .hideWhenLessthen1231show575 {
+    display: none;
+  }
+}
+
+
+  @media screen and (max-width:768px) {
+    .textfadeFull {
+      display: none;
+    }
+    .container4 {
+      font-size: calc(6px + 1.5vw);
+      width: 20em;
+  }
+}
+  @media all and (min-width:577px) {
+    .textfadeMin {
+      display: none;
+      
+
+    }
+  }
+ 
+  @media screen and (max-width:768px) {
+    .logoBig {
+      display: none;}
+    
+    }
+  
+  @media all and (min-width:768px) {
+    .logoSmall {
+      display: none;
+
+ 
+    }
+    }
+    @media screen and (max-width:1230px) {
+      .cardfullPhone {
+        display: none;
+      }
+    }
+  @media screen and (max-width:1310px) {
+    .cardfull {
+      display: none;
+    }
+    .container4 {
+      width: 40em;
+  }
+  @media screen and (max-width:1350px) {
+    .cardfullPlus {
+      display: none;
+    }
+  }
+  @media screen and (max-width:770px) {
+    .cardmed {
+      display: none;}
+     
+     
+    }
+    @media screen and (max-width:374px) {
+      .list-group-horizontal {
+        display: none; }
+    }
+  } 

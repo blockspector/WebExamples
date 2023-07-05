@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="./Img/favicon.ico">
+    <!-- CSS only  Any change? -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+   <!-- Dropdown Button From WEB Still editing !-->
+   <!-- Bootstrap JS CDN --> 
+   <!-- JavaScript Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+   integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+   <link rel="stylesheet" type="text/css" href="./CSS2/NavLaw.css">
+
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase.js"></script>
+  
+  
+   <!-- Font CSS  -->
+   <link rel="stylesheet" type="text/css" href="./CSS2/">
+   <link rel="stylesheet" type="text/css" href="./CSS2/disappearReappearLaw.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" 
+   integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <title>Demo Legal Site</title>
+
+
+   <link rel="stylesheet" href="./CSS2/aos-by-redLaw.css">
+
+   <link rel="stylesheet" href="./CSS2/aosLaw.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+   <link rel="stylesheet" href="./CSS2/Law.css">
+
+   <script src="./CSS2/NabVBarChangeLaw.js"></script>
+
+  
+    <meta charset="UTF-8">
+    <title>LawSite</title>
+    <a style="
+      padding-left: 5px;
+      justify-content: center;
+      display: flex;
+      margin-top: 25px;
+  " class="navbar-brand-law" href="#">Your Company Logo</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid2">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-bottom: 10px;
+      " >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn-Law" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    </div>
+
+    <div class="hamburger-menu" style="z-index: index 1";>
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+  
+      <ul class="menu__box">
+        <li><a class="menu__item" href="">LINK</a></li>
+        <li><a class="menu__item" href="">LINK</a></li>
+        <li><a class="menu__item" href="">LINK</a></li>
+        <li><a class="menu__item" href="m">LINK</a></li>
+        <li><a class="menu__item" href="">LINK</a></li>
+      </ul>
+    </div>
+  
+    <pre class="hamburger-menu"> 
+    </pre>
+
+
+
+
+  </head>
+
+
+
+
+  <body>
+    <!-- <pre class="hamburger-menu">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </pre> -->
+
+<div class="d-flex justify-content-center">
+      <div class="video-background-overlay" style="text-align: center;">
+      <video   playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" style="width: 70%;
+      border-radius: 32px;
+      position: relative;
+      bottom: 10px;
+
+  ">
+            <source src="https://storage.coverr.co/videos/Nv4Gqow7scn9XalkdfhPSLNjwNWrYYpE?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjMzMzkzNjUzfQ.EElJb38kbaq_0OTzJpPnInZjpR8pLDoxwLGskhuoBBc" type="video/mp4">
+        </video>
+        </div>
+        </div>
+
+
+
+
+    
+
+    <div class="display-1 container-fluid d-flex justify-content-center">
+      <display-1 class="MoveUp" ><style> 
+        @font-face {
+    font-family: BRCobane-Medium;
+    src:url(./BRCobane-Medium.woff)}
+        .display-1 {
+          color: #000000;
+          text-align: center;
+          padding-left: 20.5px;
+          font-weight: 500;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
+      </style>Creating a better world</display-1> 
+    </div>
+  
+    <div class="container-fluid d-flex justify-content-center TextMoved">
+      
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p> 
+    
+         
+         </div>
+         <div class="container-fluid d-flex justify-content-center TextMoved">
+          <button id="myButton" type="submit" class="btn btn-primary mb-2 Lbutton" style="border-radius: 999px; transform: translateY(-9px); font-family: BRCobane-Medium !important; text-align: center;">Get in touch</button>
+        </div>
+
+    <div class="container-fluid d-flex justify-content-center moved " >
+      
+      <div class="containerLaw3 bigText"data-aos="fade-up" data-aos-duration="600" data-aos-once="false" data-aos-offset="100">
+        <svg class="svgmoved" xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-bookmark-check" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+          <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+        </svg>
+        <div class="display-y container-fluid d-flex justify-content-center">
+         
+          <display-1 class="MoveUp2" >We get it done.</display-1> 
+        </div>
+        <p class="moveDown">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+      </div>
+     
+     
+     
+     
+     
+      <div class="containerLaw3 bigText"data-aos="fade-up" data-aos-duration="600" data-aos-once="false" data-aos-offset="200">
+        <svg class="svgmoved"  xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-1-square" viewBox="0 0 16 16">
+          <path d="M9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383h1.312Z"/>
+          <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2Zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2Z"/>
+        </svg>
+        <div class="display-y container-fluid d-flex justify-content-center">
+         
+          <display-1 class="MoveUp2" >Number 1 service provider</display-1> 
+        </div>
+        <p class="moveDown">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+      </div>
+      <div  class="containerLaw3 hamburger-menu" data-aos="fade-up" data-aos-duration="600" data-aos-once="false" data-aos-offset="200"></div>
+
+      
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<pre></pre>
+
+
+<div class="containerLaw2 bigText">
+
+  <div class="containerLAWS bigText">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card bigText" style="width: 18rem; margin: 15px;">
+          <img src="./img2/pexels-photo-6863183.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-sm-4">
+        <div class="card bigText" style="width: 18rem; margin: 15px;">
+          <img src="./img2/pexels-photo-3184325.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-sm-4">
+        <div class="card bigText" style="width: 18rem; margin: 15px;">
+          <img src="./img2/pexels-photo-4427611-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="containerLaw">
+  <div class="container2">
+
+    <!-- ------------------ Test hovver ------------------------->
+            
+    <div class="d-flex justify-content-center bd-highlight mb-3 ">
+      <iframe src="./indexToken.html"   class="cardmed" style="border:1px #ffffff00 none;"  data-aos="fade-left" data-aos-duration="600" data-aos-once="false" data-aos-offset="250" name="CompoundToken" scrolling="no" frameborder="0" marginheight="autopx" marginwidth="autopx" height="330px" width="260px" allowfullscreen></iframe>       
+      <iframe src="./indexToken.html"   class="" style="border:1px #ffffff00 none;"  data-aos="fade" data-aos-duration="600" data-aos-once="false" data-aos-offset="200" name="CompoundToken" scrolling="no" frameborder="0" marginheight="autopx" marginwidth="autopx" height="330px" width="260px" allowfullscreen></iframe>      
+      <iframe src="./indexToken.html"  class="cardmed" style="border:1px #ffffff00 none;"  data-aos="fade-right" data-aos-duration="600" data-aos-once="false" data-aos-offset="250" name="CompoundToken" scrolling="no" frameborder="0" marginheight="autopx" marginwidth="autopx" height="330px" width="260px" allowfullscreen></iframe>     
+    </div>
+    <div class="container-fluid d-flex justify-content-center TextStill">
+          
+      <p style="color: #000000;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    </p> 
+    
+         
+         </div>
+
+</div>
+</div>
+
+<div class="containerLaw2">
+
+
+  <div class="display-1 container-fluid d-flex justify-content-center">
+    <display-1 class="MoveUp"style="
+    margin-bottom: 25px;
+    margin-top: 37px;">Why Choose Us?</display-1> 
+  </div>
+
+  <div class="container">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Lorem Ipsum is simply dummy text </strong>  of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Lorem Ipsum is simply dummy text </strong>  of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Lorem Ipsum is simply dummy text </strong> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+     <!--🔴 🛑 Script for AOS Do not move! 🛑 🔴 -->
+
+  
+     <script src="./aos.js"></script>
+     <script>
+       AOS.init({
+         duration: 3000,
+         once: true,
+       });
+     </script>
+<!--Script for AOS -->
+
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- FOR DEMO PURPOSE -->
+
+
+
+    <!-- FOOTER -->
+    <footer class="w-100 py-4 flex-shrink-0">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="h1 text-white">Your Logo</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#"></a>Your Company Name</p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Get started</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Get started</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3">Newsletter</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <input class="form-control" type="text" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i>submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</html>
